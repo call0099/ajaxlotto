@@ -1,0 +1,160 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+body {
+    padding: .5rem;
+    margin: .5rem;
+   
+    
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: rebeccapurple;
+    text-decoration: underline overline;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 4px 4px pink;
+}
+
+.main {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+   
+    
+}
+
+#max {
+    height: 30px;
+    width: 10%;
+    font-size: 1.5rem;
+}
+
+.page {
+    display: none;
+    text-align: center;
+    padding: 1rem;
+/*    background-color:beige;*/
+    
+}
+
+.active {
+    display: block;
+}
+
+#buttonBack {
+    font-size: 1rem;
+    width 100%;
+    height: 80px;
+    font-family: 'Roboto', sans-serif;
+    align-self:center;
+    
+    
+}
+
+#buttonSend {
+    font-size: 1rem;
+    height: 80px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#digits {
+    height: 30px;
+    width: 10%;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 870px) {
+    .num_list {
+        height:410px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+/*        justify-content: space-around;*/
+        list-style-type: none;
+        font-size: 2.5rem;
+    }
+
+    #buttonBack {
+        font-size: 1rem;
+        width 100%;
+        height: 80px;
+        font-family: 'Roboto', sans-serif;
+        align-self:center;
+        padding:0;
+        
+        
+        
+        
+    }
+
+    #buttonSend {
+        font-size: 1rem;
+        height: 80px;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+
+    li {
+        font-size: 3rem;
+        width: 100px;
+        color:darkcyan;
+        border: 6px double pink;
+        align-self: center;
+        
+    }
+
+
+}
+
+
+
+@media (min-width: 870px) and (max-width:1250px) {
+
+    h1{
+        font-size: 2rem;
+    }
+    .num_list {
+/*        height:410px;*/
+        display: flex;
+/*        flex-direction: column;*/
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style-type: none;
+        font-size: 3rem;
+    }
+
+    li {
+        font-size: 3.5rem;
+        width: 100px;
+        color:aquamarine;
+        border: 6px double pink;
+    }
+
+    h1 {
+        font-size: 8rem;
+    }
+}
+@media (min-width: 1250px) {
+
+    .num_list {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        font-size: 4rem;
+        
+    }
+
+    li {
+        font-size: 4.5rem;
+       
+        width: 100px;
+        color:aqua;
+        border: 6px double pink;
+    }
+
+    h1 {
+        font-size: 8rem;
+    }
+
+}
